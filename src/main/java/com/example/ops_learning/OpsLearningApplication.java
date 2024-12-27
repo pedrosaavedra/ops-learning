@@ -16,7 +16,7 @@ public class OpsLearningApplication {
 	public class Hello {
 		@GetMapping("/hello")
 		public String sayHello(){
-			return "Hello I m running :)";
+			return "Hello I m running :P";
 		}
 	}
 
