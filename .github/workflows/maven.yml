@@ -5,9 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: first-step
-        run: echo "Hello I m the first step"
-      - name: second-ste
-        run: echo "Hello i m the second step"
+        run: |
+          echo "hello"
+          ls -la
+          echo "bye"
   second-job:
     runs-on: ubuntu-latest
     steps: 
